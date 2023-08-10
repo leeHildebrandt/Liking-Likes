@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 800px;
+    height: 100px;
+    margin: 0px auto;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+div.navbar>h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.container {
+    width: 800px;
+    height: 700px;
+    margin: 0px auto;
+}
+.container-upper {
+    text-align: center;
+    font-family: sans-serif;
+}
+div.container-upper>h1 {
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.container-lower {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: flex-start;
+    vertical-align: top
+}
+.box1{
+    position: relative;
+    left: -2px;
+    margin: 50px 0px 50px 0px;
+    width: 190px;
+    height: 250px;
+    border: 3px solid black;
+}
+.box1-A {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    width: 190px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+div.box1-A>img {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 90px;
+}
+.box1-B {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    width: 190px;
+    height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-direction: column;
+}
+.box2 {
+    position: relative;
+    top: 0px;
+    left: 2px;
+    margin: 50px 0px 50px 0px;
+    width: 552px;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
+.box2-A {
+    position: relative;
+    top: -2px;
+    left: -3px;
+    width: 552px;
+    height: 160px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+.box2-B {
+    position: relative;
+    top: 0px;
+    left: -3px;
+    width: 552px;
+    height: 160px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+.box2-C {
+    position: relative;
+    top: 0px;
+    left: -3px;
+    width: 552px;
+    height: 160px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+.inner-box2-upper {
+    width: 552px;
+    height: 70px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+div.inner-box2-upper>h1,h3,button {
+    margin: 10px;
+}
+.btn {
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 4px 4px #222;
+    background-color: rgb(255, 217, 102);
+    font-weight: bold;
+}
+.inner-box2-lower {
+    width: 552px;
+    height: 80px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
